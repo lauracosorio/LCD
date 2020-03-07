@@ -1,3 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&display=swap');
+
 body {
-    background-color: peachpuff;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------- INICIO DESCRIPCIÓN DEL EQUIPO ---------------*/
+
+
+
+.equipo .descripcion {
+    display: block;
+    text-align: center;
+}
+
+.equipo .titulo {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    color: #099D8D;
+
+}
+
+.equipo .texto {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+}
+
+/*-------------- FIN DESCRIPCIÓN DEL EQUIPO ---------------*/
+
+/*-------------- INICIO CARACTERISTICAS DEL GRUPO -----------*/
+
+.caracteristicas {
+    display: block;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    background-color: #F1F1F1;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caracteristicas .fortalezas {
+    width: 50%;
+}
+
+.caracteristicas .fortalezas .titulo2 {
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    color: #099D8D;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caracteristicas .fortalezas .fort {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caracteristicas .debilidades {
+    width: 50%;
+}
+
+.caracteristicas .debilidades .titulo3 {
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    color: #099D8D;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caracteristicas .debilidades .deb {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-------------- FIN CARACTERISTICAS DEL GRUPO -----------*/
+
+/*---- MEDIA QUERIS ----*/
+
+/*---- PANTALLA 319PX ----*/
+
+@media (max-width: 319px){
+
+    .equipo {
+         width: 100%;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         margin: 0;
+     }
+ 
+     .equipo .texto {
+         width: 70%;
+     }
+ 
+     .caracteristicas {
+         width: 100%;
+         display: inline-block;
+         /* flex-wrap: nowrap; */
+         padding-top: 30px;
+ 
+     }
+ 
+     .caracteristicas .fortalezas {
+         width: 100%;
+     }
+ 
+     .caracteristicas .fortalezas .fort {
+         padding-top: 15px;
+         padding-bottom: 30px;
+         padding-left: 25px;
+         padding-right: 25px;        
+     }
+ 
+     .caracteristicas .debilidades {
+         width: 100%;
+     }
+ 
+     .caracteristicas .debilidades .deb {
+         padding-top: 15px;
+         padding-bottom: 45px;
+         padding-left: 25px;
+         padding-right: 25px; 
+     } 
+ }
+
+/*---- PANTALLA 320PX ----*/
+
+@media (min-width: 320px){
+
+   .equipo {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+
+    .equipo .texto {
+        width: 70%;
+    }
+
+    .caracteristicas {
+        width: 100%;
+        display: inline-block;
+        /* flex-wrap: nowrap; */
+        padding-top: 30px;
+
+    }
+
+    .caracteristicas .fortalezas {
+        width: 100%;
+    }
+
+    .caracteristicas .fortalezas .fort {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+        padding-right: 25px;        
+    }
+
+    .caracteristicas .debilidades {
+        width: 100%;
+    }
+
+    .caracteristicas .debilidades .deb {
+        padding-top: 15px;
+        padding-bottom: 45px;
+        padding-left: 25px;
+        padding-right: 25px; 
+    } 
+}
+
+/* ---- PANTALLA 768PX ----*/
+
+@media (min-width: 768px){
+    .equipo {
+         width: 100%;
+         padding-top: 45px;
+         padding-bottom: 60px;
+         margin: 0;
+     }
+
+    
+    .equipo .texto {
+        width: 601px;
+    }
+
+   .caracteristicas {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 0px; 
+        padding-bottom: 60px;
+    }
+
+    .caracteristicas .fortalezas {
+        width: 50%;
+        padding-top: 45px;
+        margin-right: 15px;
+    }
+
+    .caracteristicas .fortalezas .titulo2 {
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px; 
+        padding-bottom: 0px;       
+    }
+
+    .caracteristicas .fortalezas .fort {
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-right: 0px;   
+        padding-bottom: 0px;     
+    }
+
+    .caracteristicas .debilidades {
+        width: 50%;
+        padding-top: 45px;
+        margin-left: 15px;
+    }
+
+    .caracteristicas .debilidades .titulo3 {
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;   
+        padding-bottom: 0px;     
+    }
+    
+    .caracteristicas .debilidades .deb {
+        padding-left: 0px;
+        padding-right: 50px; 
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }   
+}
+/*---------- PANTALLA 1200 PX ---------*/
+
+@media (min-width: 1200px){
+    .equipo {
+         width: 100%;
+         padding-top: 45px;
+         padding-bottom: 60px;
+     }
+
+    .equipo .texto {
+        width: 601px;
+    }
+
+    .caracteristicas {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 0px; 
+        padding-bottom: 60px;
+    }
+
+    .caracteristicas .fortalezas {
+        width: 50%;
+        padding-top: 45px;
+        margin-right: 22.5px;
+    }
+
+    .caracteristicas .fortalezas .titulo2 {
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;   
+        padding-bottom: 0px;     
+    }
+
+    .caracteristicas .fortalezas .fort {
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-right: 0px;   
+        padding-bottom: 0px;     
+    }
+
+    .caracteristicas .debilidades {
+        width: 50%;
+        padding-top: 45px;
+        margin-left: 22.5px;
+    }
+
+    .caracteristicas .debilidades .titulo3 {
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px; 
+        padding-bottom: 0px;       
+    }
+    
+    .caracteristicas .debilidades .deb {
+        padding-left: 0px;
+        padding-right: 50px; 
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
 }
