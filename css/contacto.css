@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500&display=swap');
+
+
 @-ms-viewport {
     width: device-width;
 }
@@ -2104,4 +2107,51 @@ html {
         -ms-flex-item-align: stretch !important;
         align-self: stretch !important;
     }
+}
+.contact{
+    color:#099d8d ;
+    font-family: 'Open Sans', sans-serif; 
+}
+.textcontact{
+    font-family: 'Rubik', sans-serif;
+    color: #54585A;
+    font-size: 14px;
+    width: 601px;
+    height: 70px;
+    display: block;
+    margin: auto;
+    
+}
+.container{
+    display: block;
+}
+h3{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+p{
+    text-align: center;
+    padding: 15px;
+}
+@media(min-width: 321px){
+    .section {
+        display: flex;
+        font-size: 7px;
+    }
+}
+@media(min-width: 768px){
+    .section {
+        display: flex;
+        font-size: 10px ;
+    }
+}
+@media(min-width: 1200px){
+    .section {
+        display: flex;
+        font-size: 14px;
+    }
+}
+.section{
+    display: flex;
 }
