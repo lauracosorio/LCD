@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/inicio.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./nosotros.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/Equipo.css">
+    <link rel="stylesheet" href="./styles/inicio.css">
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- sin esos dos archivos no nos funcionaria el menú hamburguesa ni nada-->
+    <script src="./popper.min.js"></script>
+    <script src="./styles/inicio.css"></script>
+    <script src="https://kit.fontawesome.com/cd2331958e.js" crossorigin="anonymous"></script>
 
     <title>INICIO</title>
 </head>
@@ -21,9 +38,9 @@
 
                     <nav class="nav-bar">
                         <ul>
-                            <li><a href="">EQUIPO</a></li>
-                            <li><a href="">QUIENES SOMOS</a></li>
-                            <li><a href="">CONTACTO</a></li>
+                            <li><a href="#equipo">EQUIPO</a></li>
+                            <li><a href="#id">QUIENES SOMOS</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -37,15 +54,16 @@
 
     </header>
     <main>
-
+        
         <div class="equipo">
             <div class="descripcion">
-                <h3 class="titulo">EQUIPO</h3>
+                <h3 class="titulo" id="equipo"style="text-align: center;">EQUIPO</h3>
 
                 <p class="texto">Somos un equipo multidiciplinario conformado por cinco chicas apasionadas por la tecnología que se encuentra en formación de Desarrollo Front-end con énfasis en React en la Academia Geek. </p>
 
                 <p class="texto"> Nuestro equipo sobresale a la hora de codificar, porque cada etiqueta y estilo estan previamente planeados; haciendo que el código a parte de ser funcional, sea estético.</p>
             </div>
+            
         </div>
 
         <div class="caracteristicas">
@@ -68,7 +86,185 @@
 
         </div>
 
+
+
     </main>
+
+    <article>
+        <h5 class="titulo" id="id" style="margin-top:30px;"> QUIÉNES SOMOS </h5>
+    </article>
+    
+    <!--Derly-->
+    
+    <article class="Derly">
+        <article class="row no-gutters ">
+            <div class="col-6 col-md-4 col-sm-12">
+            <div class="img ">
+                <img class= "img__derly img-responsive"src="./images/derly.jpg"... >
+            </div>
+            </div>
+            <div>
+            <div class="descripcion2" style="margin-left: 70px;">
+                <div class="card-body ">
+                    <h5 class="card-title ">Derly Viviana Murcia Serrano</h5>
+                    <p class="card-text ">Ingeniera de sistemas con conocimiento y habilidad para planear, analizar, diseñar, implementar, medir y
+                        verificar sistemas de información. Además, con capacidad Investigativa para identificar determinadas
+                        características y poder
+                        analizar los posibles problemas en un contexto determinado, y de esta manera proponer y generar
+                        soluciones. Me caracterizo por ser una persona responsable, honesta, dinámica con buenas relaciones
+                        interpersonales, con profesionalismo
+                        y objetividad, para lograr las metas de productividad trazadas por la empresa.</p>
+                    <div class="d-flex justify-content " style="margin-top:15px; ">
+                        <a href="https://twitter.com/DerlyVivianaMur " target="_blank "><i class="fab fa-twitter mr-3 "></i></a>
+                <a href="https://www.linkedin.com/in/derly-viviana-murcia-bb2652168/ " target="_blank "><i
+                        class="fab fa-linkedin-in mr-3 ">.</i></a>
+                <a href="https://github.com/derlyvivianamurcia " target="_blank "><i
+                        class="fab fa-github-alt mr-3 "></i></a>
+                <a href="https://www.instagram.com/derlyvivianams/ " target="_blank "><i
+                        class="fab fa-instagram mr-3 "></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+    </article>
+     <!--Laura-->
+
+     <article class="Laura">
+        <article class="row no-gutters ">
+            
+            <div class="descripcion2"  style="margin-left: 40px;">
+                <div class="card-body ">
+                    <h5 class="card-title ">Laura Cristina Osorio</h5>
+                    <p class="card-text ">Ingeniera biomédica con énfasis en el área de ingeniería clínica. Soy una persona responsable,
+                        comprometida, honesta, con habilidad y buena actitud para el trabajo en equipo, para de esta manera
+                        entablar relaciones personales
+                        y afrontar nuevos retos. Actualmente estudiante de Desarrollo Front-end en la Academia Geek. Soy una
+                        persona responsable, comprometida, honesta, con habilidad y buena actitud para el trabajo en equipo,
+                        para de esta manera
+                        entablar relaciones personales y afrontar nuevos retos.</p>
+                    <div class="d-flex justify-content " style="margin-top:15px; ">
+                        <a href="https://twitter.com/lauracosorio_ " target="_blank "><i class="fab fa-twitter mr-3 "></i></a>
+                <a href="https://www.linkedin.com/in/laura-cristina-osorio-g%C3%B3mez-82784ba1/ " target="_blank "><i
+                        class="fab fa-linkedin-in mr-3 "></i></a>
+                <a href="https://github.com/lauracosorio " target="_blank "><i class="fab fa-github-alt mr-3 "></i></a>
+                <a href="https://www.instagram.com/lauracosorio/ " target=" _blank "><i
+                        class="fab fa-instagram mr-3 "></i></a>
+                    </div>
+                </div>
+           
+        </div>
+        <div class="col-6 col-md-4 col-sm-12">
+            <div class="img" style="margin-right:40px;">
+                <img class= "img__laura img-responsive" style="margin-left: 70px" src="./images/Laura.jpg" alt="... ">
+            </div>
+        </div>
+        </article>
+    </article>
+    <!--Leyna-->
+
+    <article class="Leyna">
+        <article class="row no-gutters ">
+            <div class="col-6 col-md-4 col-sm-12">
+            <div class="img">
+                <img class= "img__leina img-responsive"src="./images/Leina.jpg"alt="... ">
+            </div>
+        </div>
+            <div class="descripcion2 "  style="margin-left: 70px;">
+                <div class="card-body ">
+                    <h5 class="card-title "> Leyna Soranlly Pulgarin Tamayo</h5>
+                    <p class="card-text ">Soy alguien responsable, dinámica, con deseos de superación y mis metas están basadas en el logro de objetivos claros; aprendo rápido y cumplo de manera adecuada con puntualidad, honestidad y responsabilidad en las distintas actividades que realizo. Dispuesta a cumplir con las distintas funciones, obligaciones y normas laborales que tengan establecidasjijij</p>
+                    <div class="d-flex justify-content " style="margin-top:15px; ">
+                        <a href="https://github.com/miusel22 " target="_blank "><i
+                                        class="fab fa-twitter mr-3 "></i></a>
+                        <a href="https://github.com/miusel22 " target="_blank "><i
+                                        class="fab fa-linkedin-in mr-3 "></i></a>
+                        <a href="https://github.com/miusel22 " target="_blank "><i
+                                        class="fab fa-github-alt mr-3 "></i></a>
+                        <a href="https://github.com/miusel22 " target="_blank "><i
+                                        class="fab fa-instagram mr-3 "></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </article>
+<!-- maria clara-->
+<article class="Maria_Clara">
+    <article class="row no-gutters ">
+        <div class="descripcion2">  
+            <div class="card-body ">
+                <h5 class="card-title "> Maria Clara</h5>
+                <p class="card-text ">Soy una chica bachiller con una media de desarrollo de software, se me facilita mucho trabajar en grupo ya que mi personalidad es muy afín con estar cerca a las personas, siendo empatica y extrovertida.</p>
+                <div class="d-flex justify-content " style="margin-top:15px; ">
+                    <a href="https://twitter.com/mariaclararest8 " target="_blank "><i
+                        class="fab fa-twitter mr-3 "></i></a>
+        <a href="https://www.linkedin.com/feed/ " target="_blank "><i
+                        class="fab fa-linkedin-in mr-3 "></i></a>
+        <a href="https://github.com/mariac021 " target="_blank "><i
+                        class="fab fa-github-alt mr-3 "></i></a>
+        <a href="https://www.instagram.com/mclararar/ " target="_blank "><i
+                        class="fab fa-instagram mr-3 "></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-6 col-md-4 col-sm-12">
+        <div class="img">
+            <img class= "img__clara" src="./images/MariaClara.jpg" alt="... ">
+        </div>
+        </div>
+    </article>
+</article>
+<!-- maria camila-->
+<article class="Camila">
+    <article class="row no-gutters ">
+        <div class="col-6 col-md-4 col-sm-12">
+        <div class="img">
+            <img class= "img__camila"src="./images/camila.jpg" alt="... ">
+        </div>
+    </div>
+    
+        <div class="descripcion2 "  style="margin-left: 70px;">
+            <div class="card-body ">
+                <h5 class="card-title ">Maria Camila Vélez Bedoya</h5>
+                <p class="card-text ">Soy alguien responsable, dinámica, con deseos de superación y mis metas están basadas en el logro de objetivos claros; aprendo rápido y cumplo de manera adecuada con puntualidad, honestidad y responsabilidad en las distintas
+                    actividades que realizo. Dispuesta a cumplir con las distintas funciones, obligaciones y normas laborales que tengan establecidas.</p>
+                <div class="d-flex justify-content " style="margin-top:15px; ">
+                    <a href="https://github.com/miusel22 " target="_blank "><i
+                                    class="fab fa-twitter mr-3 "></i></a>
+                    <a href="https://github.com/miusel22 " target="_blank "><i
+                                    class="fab fa-linkedin-in mr-3 "></i></a>
+                    <a href="https://github.com/miusel22 " target="_blank "><i
+                                    class="fab fa-github-alt mr-3 "></i></a>
+                    <a href="https://github.com/miusel22 " target="_blank "><i
+                                    class="fab fa-instagram mr-3 "></i></a>
+                </div>
+            
+        </div>
+    </div>
+</div>
+    </article>
+</article>
+<!--footer-->
+<footer class="footer" style="background-color: rgb(80, 233, 218);margin-top:45px; color: white;">
+    <hr>
+    <div class="col"></div>
+    <div class="container">
+        <div class="footer__sections">
+            <div class="col-12 col-md-6 col-sm-12">
+            <li class="mr-3" style="list-style: none;"><img src="./images/1034367-128.png" alt="">LCD © 2020 </li>
+            </div>
+            <section>
+                <a href="#equipo" style="color: white;font-weight: 700;"><i>Equipo</i></a>
+                <br>
+                <a href="#id" style="color: white;font-weight: 700;"><i>Quienes somos</i></a>
+                <br>
+                <a href="contacto.html" style="list-style: none; color:white;font-weight: 700;"><i>Contacto</i></a>
+            </section>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 

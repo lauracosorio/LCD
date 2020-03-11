@@ -2155,3 +2155,14 @@ p{
 .section{
     display: flex;
 }
+
+
+#footer{
+    background-color: rgb(80, 233, 218);margin-top:45px; color: white;
+}
+.footer .footer__sections{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
