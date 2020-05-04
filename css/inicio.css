@@ -464,8 +464,7 @@ img{
 
  @media (max-width: 572px){
   .footer-links{
- justify-content: center;
- }
+text-align: center !important; }
  
  .footer-lcd{
    padding: 0px !important;
@@ -515,7 +514,7 @@ img{
 
  @media (max-width: 768px){
   .footer-links{
- text-align: end;
+ text-align: center !important;
  }
 
  .card{
